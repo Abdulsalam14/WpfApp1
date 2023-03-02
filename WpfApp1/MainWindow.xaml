@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Height="430" Name="gr">
+        <Button Content="1" Height="130" Width="200" Margin="30,50 550,250" FontSize="40"  Background="Orange" BorderBrush="Black" BorderThickness="5" Click="Button_Click" PreviewMouseRightButtonDown="Button_PreviewMouseRightButtonDown"/>
+        <Button Content="2" Height="130" Width="200" Margin="285,50,285,250" FontSize="40" Background="pink" BorderBrush="Black" BorderThickness="5" Click="Button_Click" PreviewMouseRightButtonDown="Button_PreviewMouseRightButtonDown" />
+        <Button Content="3" Height="130" Width="200" Margin="550,50,30,250" FontSize="40" Background="Blue" BorderBrush="Black" BorderThickness="5" Click="Button_Click" PreviewMouseRightButtonDown="Button_PreviewMouseRightButtonDown"/>
+        <Button Content="4" Height="130" Width="200" Margin="30 250 550,50" FontSize="40" Background="Red" BorderBrush="Black" BorderThickness="5" Click="Button_Click" PreviewMouseRightButtonDown="Button_PreviewMouseRightButtonDown" />
+        <Button Content="5" Height="130" Width="200" Margin="285,250,285,50" FontSize="40" Background="Violet" BorderBrush="Black" BorderThickness="5" Click="Button_Click" PreviewMouseRightButtonDown="Button_PreviewMouseRightButtonDown"/>
+        <Button Content="6" Height="130" Width="200" Margin="550,250,30,50" FontSize="40" Background="Gray" BorderBrush="Black" BorderThickness="5" Click="Button_Click" PreviewMouseRightButtonDown="Button_PreviewMouseRightButtonDown"/>
+
+    </Grid>
+</Window>
